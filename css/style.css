@@ -6,6 +6,7 @@
 
 .header {
     width: 100%;
+    max-height: 45vh;
     position: relative;
 }
 
@@ -15,10 +16,18 @@ img {
 
 .container-imagen-perfil {
     position: absolute;
-    width: 500px;
+    width: 400px;
     top: 50%;
     right: 0;
     bottom: 0;
     left: 0;
     margin: auto;
+}
+
+.title {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
 }
